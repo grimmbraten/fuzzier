@@ -1,4 +1,4 @@
-A zsh plugin that helps search and preview files in the cwd scope.
+A zsh plugin to search and preview files like a fuzzy bat
 
 ## Install
 
@@ -15,7 +15,7 @@ Add `fuzzier` to the plugin array in your `.zshrc` file.
 plugins=(...other-plugins fuzzier)
 ```
 
-## Usage
+## Use
 
 Start a fuzzy search in the cwd
 
