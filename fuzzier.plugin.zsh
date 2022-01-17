@@ -1,9 +1,9 @@
 if ! command -v fzf &>/dev/null; then
-    echo "[fuzzier] Please install 'fzf' before using this plugin.\n"
+    echo "[fuzzier] Missing required dependency!\nPlease install 'fzf' before using this plugin.\nhttps://github.com/junegunn/fzf"
 fi
 
 if ! command -v bat &>/dev/null; then
-    echo "[fuzzier] Please install 'bat' before using this plugin.\n"
+    echo "[fuzzier] Missing required dependency!\nPlease install 'bat' before using this plugin.\nhhttps://github.com/sharkdp/bat"
 fi
 
 fuzzier() {
